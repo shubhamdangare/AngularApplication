@@ -1,0 +1,15 @@
+<p>
+  validate works!
+</p>
+<form>
+  <div>
+  <label>Username</label>
+  <input required ngModel name="UserName" #name="ngModel" id="UserName" (change)="Validate(name)" type="text">
+   <div *ngIf="!name.valid">UserName is Compulssory.</div> 
+    <br>
+   <label>Password</label>
+   <input required name="Password" #password id="Password"type="text">
+    <br>
+   <button>Submit</button>
+   
+  </div>
