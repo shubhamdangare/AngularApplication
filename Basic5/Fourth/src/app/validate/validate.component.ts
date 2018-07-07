@@ -12,4 +12,17 @@ export class ValidateComponent implements OnInit {
   ngOnInit() {
   }
 
+  public Validate(data)
+  {
+    console.log(data);
+  }
+  public Validate1(data)
+  {
+    console.log(data);
+  }
+  public val()
+  {
+    console.log('data validate');
+  }
+  
 }
