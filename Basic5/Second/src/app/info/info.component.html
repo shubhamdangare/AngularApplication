@@ -1,0 +1,26 @@
+<form>
+<div>
+  <div class="form-group">
+  <label>Name</label>
+  <input #name id="Name" type="text" class="form-control">
+  </div>
+  <div class="form-group">
+  <label>Address</label>
+  <input #addr id="Address" type="text" class="form-control">
+  </div>
+
+  <div class="form-group">
+  <label>Mobile</label>
+  <input #mob id="Mobile" type="text" class="form-control">
+  </div>
+
+  <div class="form-group">
+  <label>EmailID</label>
+  <input #eid id="eid" type="text" class="form-control">
+  </div>
+
+
+
+  <button type="button" class="btn btn-primary" (click)="fun(name.value,addr.value,mob.value,eid.value)">Primary</button>
+</div>
+</form>
