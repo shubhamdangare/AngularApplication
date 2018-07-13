@@ -7,4 +7,13 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app';
+  City = [
+    {"name":"new york"},
+    {"name":"sydney"},
+    {"name":"san diago"},
+    {"name":"london"},
+    {"name":"paris"},
+    {"name":"greek"},
+    
+  ]
 }
